@@ -52,7 +52,7 @@ describe('HTTP server', () => {
       // Action
       const response = await server.inject({
         method: 'GET',
-        url: '/',
+        url: '/mamono',
       });
       // Assert
       const responseJson = JSON.parse(response.payload);
